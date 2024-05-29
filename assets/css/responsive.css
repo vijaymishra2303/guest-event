@@ -1,0 +1,206 @@
+/*---- Responsive CSS Start ----*/
+@media (min-width: 1536) {
+   
+}
+@media (max-width: 1440px) {
+    .memory_card_slider{padding: 0;}
+    .dive_card{top: 0px;}
+    .topBar_with_menu .nav li a{
+    padding: 7px 0;
+    font-size: 14px;
+    line-height: 24px;
+}
+.event_logo a img{height: 117px;}
+}
+
+
+
+@media (max-width: 1366px) {
+    .event_logo a img{}
+}
+
+
+@media (max-width: 1024px) {
+    .event_logo a img{height: 112px;}
+}
+@media (min-width: 992px) {
+   
+    .topBar_with_menu .topBar li a{}
+.event_menu_icon{display: none;}
+.event_menu_shift{display: none;}
+.mobileMenu {display: none;}
+}
+@media (max-width: 991px) {
+    .menuIccc{display: none;}
+    .event_logo a img{
+    display: none;
+}
+.mobileMenu a{width: 100%;}
+.mobileMenu a img{
+    height: 100px;
+}
+    .mobileMenu{display: flex;padding: 0 20px;}
+  
+/* menu */
+.topBar_with_menu .topBar{display: none;}
+
+.topBar_with_menu .nav li a{padding: 0px;}
+.event_logo{order: 1;}
+.order_cls{order: -1;}
+.topBar_with_menu{background: none;}
+
+
+
+.event_menu.active {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    left: 0;
+}
+.topBar_with_menu .nav{align-items: center;display: block;}
+
+
+.event_menu {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #ffffff;
+    flex-direction: column;
+    padding-top: 50px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    align-items: center;
+    z-index: 99999;
+}
+.topBar_with_menu{
+    padding: 0;
+}
+.topBar_with_menu .nav li a{color: #000;font-size: 16px;line-height: 26px;padding: 5px 0;}
+.topBar_with_menu .nav li{flex-grow: unset;}
+.event_menu_shift{display: block;z-index: 99999;}
+    /* menu */
+    .guest_card .card_text{bottom: 30px;}
+    .cele_gallery{
+    width: max-content;
+}
+    .testimonial .testimonial_card .item h6{width: 100%;}  
+    .main_heading h2{
+    font-size: 32px;
+    line-height: 39px;
+} 
+    .main_heading strong{
+}
+    .main_heading p{
+    font-size: 16px;
+    line-height: 26px;
+}
+.partner_slider .brand_img{
+    padding: 20px 0px;
+}
+.footer_gallery figure img{
+    height: 200px;
+    width: 100%;
+    border-radius: 20px 0px 0px 0px;
+}
+.footer_gallery{
+    margin-bottom: 30px;
+}
+.galler_wiget  .main_heading{
+    padding: 0px 10px 30px 20px;
+}
+.package_img figure img{
+    width: 100% !important;
+    height: auto;
+}
+.package_img_two img{width: 100%;}
+.offset-md-1{margin-left: 0 !important;}
+.guest_click_sec{
+    padding: 50px 0px;
+}
+.seamless_sec{padding: 50px 0px;}
+}
+@media (min-width: 768px) {}
+@media (max-width: 767px) {
+    .header_slide figure img{
+    height: 95vh;
+}
+    .footer_logo a img{
+    width: 40%;
+}
+    .seam_heading{
+    display: unset;
+    margin-bottom: 15px;
+}
+.seam_heading .main_heading{width: 100%;}
+.event_btn{
+    height: 50px;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 20px auto !important;
+}
+.event_btn a{
+    padding: 15px 10px;
+}
+.guest_click_sec .memo_card{}
+.footer_logo{
+    margin-top: 40px;
+}
+.main_slide_text .slider_text h1{
+    font-size: 41px;
+    line-height: 50px;
+}
+.main_slide_text .slider_text strong{
+    font-size: 28px;
+    line-height: 45px;
+}
+.main_slide_text .slider_text{}
+.main_slide_text{
+    top: 50%;
+}
+.price_card{
+    margin-bottom: 15px;
+}
+.package_card{
+    grid-template-columns: repeat(1, 2fr);
+}
+.main_header_slider .owl-nav{display: none;}
+.package_text{
+    margin: 0;
+    padding: 20px 0px 20px 20px;
+}
+.event_newsletter{margin: 20px 0 0 0;}
+.galler_package{
+    padding: 50px 10px;
+}
+}
+@media (max-width: 576px) {
+    body{
+        line-height: 1.6;;
+        font-size: 14px;
+    }
+    .main_heading h2{
+        font-size: 25px;
+        line-height: 30px;
+    } 
+        .main_heading strong{
+    }
+        .main_heading p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .partner_slider .brand_img{
+    padding: 15px 15px;
+}
+.memo_card .readwithImg figure img{}
+.cele_gallery{
+    width: auto;
+}
+footer{}
+
+}

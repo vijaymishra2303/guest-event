@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="179" height="179" viewBox="0 0 179 179">
+  <defs>
+    <filter id="button1" x="0" y="0" width="179" height="179" filterUnits="userSpaceOnUse">
+      <feOffset dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20.5" result="blur"/>
+      <feFlood flood-color="#a9d9d0"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="link_arrow" transform="translate(-871.5 -939.5)">
+    <circle id="Ellipse_10096" data-name="Ellipse 10096" cx="39.5" cy="39.5" r="39.5" transform="translate(921 982)" fill="#fff"/>
+    <g id="button_next" transform="translate(989 994) rotate(90)">
+      <g transform="matrix(0, -1, 1, 0, -54.5, 117.5)" filter="url(#button1)">
+        <rect id="button1-2" data-name="button1" width="56" height="56" rx="28" transform="translate(117.5 54.5) rotate(90)" fill="#a9d9d0"/>
+      </g>
+      <g id="arrow-right" transform="translate(26 22)">
+        <path id="Path" d="M0,0,6,6,0,12" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
